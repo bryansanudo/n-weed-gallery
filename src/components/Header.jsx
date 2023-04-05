@@ -1,6 +1,5 @@
-import React, { useState } from "react";
-import { MdNightsStay, MdWbSunny, MdOutlineClose } from "react-icons/md";
-import Navigate from "@/components/categorys/Navigate";
+import React from "react";
+import { MdNightsStay, MdWbSunny } from "react-icons/md";
 
 import logo from "@/assets/Logo.png";
 import logoPhoto from "@/assets/LogoPhoto.png";

@@ -92,13 +92,13 @@ const Dyel = () => {
       codeInstagram: "https://www.instagram.com/elianacaro12/",
       codeWpp: "https://api.whatsapp.com/send?phone=573045571083",
     },
-    {
+    /* {
       id: 13,
       src: "https://i.ibb.co/Prsn65x/l13.jpg",
       category: "@elianacaro12",
       codeInstagram: "https://www.instagram.com/elianacaro12/",
       codeWpp: "https://api.whatsapp.com/send?phone=573045571083",
-    },
+    }, */
   ];
 
   const useScroll = () => {
