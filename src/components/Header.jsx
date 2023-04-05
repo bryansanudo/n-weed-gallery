@@ -40,7 +40,7 @@ const Header = ({
               className="rounded-full object-cover hover:scale-105 transition-300  h-24 w-24  duration-300 shadow-lg   shadow-[#ffcdc2]"
             />
           </a>
-          <a href="">
+          <a href="https://eliana-nweed-gallery.netlify.app/">
             <img
               src={logoPhoto}
               alt=""
