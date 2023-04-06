@@ -8,7 +8,7 @@ const Navigate = () => {
   return (
     <div className="flex  lg:flex-row p-5 mb-12 gap-5 items-center justify-center ">
       <Link to="/gelam" onClick={useScroll}>
-        <div className="w-16 text-center rounded-3xl shadow-lg shadow-[#6057ca] hover:scale-105 duration-200  px-6 p-3 cursor-pointer  ">
+        <div className="w-16 text-center rounded-3xl shadow-lg shadow-[#ffcdc2] hover:scale-105 duration-200  px-6 p-3 cursor-pointer  ">
           {/* <img
             src={logoGelam}
             alt="contact us"
@@ -18,7 +18,7 @@ const Navigate = () => {
         </div>
       </Link>
       <Link to="/dyel" onClick={useScroll}>
-        <div className="w-16 text-center  rounded-3xl shadow-lg shadow-[#6057ca] hover:scale-105 duration-200  px-6 p-3 cursor-pointer  ">
+        <div className="w-16 text-center  rounded-3xl shadow-lg shadow-[#ffcdc2] hover:scale-105 duration-200  px-6 p-3 cursor-pointer  ">
           {/* <img
             src={logoGelam}
             alt="contact us"
@@ -28,7 +28,7 @@ const Navigate = () => {
         </div>
       </Link>
       <Link to="/astralic" onClick={useScroll}>
-        <div className="w-16 text-center  rounded-3xl shadow-lg shadow-[#6057ca] hover:scale-105 duration-200  px-6 p-3 cursor-pointer ">
+        <div className="w-16 text-center  rounded-3xl shadow-lg shadow-[#ffcdc2] hover:scale-105 duration-200  px-6 p-3 cursor-pointer ">
           {/* <img
             src={logoGelam}
             alt="contact us"
@@ -38,7 +38,7 @@ const Navigate = () => {
         </div>
       </Link>
       <Link to="/fajas" onClick={useScroll}>
-        <div className="w-16 text-center   rounded-3xl shadow-lg shadow-[#6057ca] hover:scale-105 duration-200  px-6 p-3 cursor-pointer">
+        <div className="w-16 text-center   rounded-3xl shadow-lg shadow-[#ffcdc2] hover:scale-105 duration-200  px-6 p-3 cursor-pointer">
           {/* <img
             src={logoGelam}
             alt="contact us"

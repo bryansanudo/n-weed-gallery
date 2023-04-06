@@ -9,27 +9,32 @@ import Fajas from "@/components/categorys/Fajas";
 import Home from "@/components/Home";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import Footer from "@/components/Footer";
 
 function App() {
   const [isMenuShown, setIsMenuShown] = useState(false);
+  const [darkMode, setDarkMode] = useState(false);
 
   return (
-    <>
+    <div className={darkMode && "dark"}>
       {/* <Navbar isMenuShown={isMenuShown} setIsMenuShown={setIsMenuShown} /> */}
       {/* <HeroSection isMenuShown={isMenuShown} /> */}
+      <Header darkMode={darkMode} setDarkMode={setDarkMode} />
 
-      <BrowserRouter>
-        <Header />
+      <main className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
         <Hero />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/gelam" element={<Gelam />} />
-          <Route path="/dyel" element={<Dyel />} />
-          <Route path="/astralic" element={<Astralic />} />
-          <Route path="/fajas" element={<Fajas />} />
-        </Routes>
-      </BrowserRouter>
-    </>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/gelam" element={<Gelam />} />
+            <Route path="/dyel" element={<Dyel />} />
+            <Route path="/astralic" element={<Astralic />} />
+            <Route path="/fajas" element={<Fajas />} />
+          </Routes>
+        </BrowserRouter>
+        <Footer />
+      </main>
+    </div>
   );
 }
 

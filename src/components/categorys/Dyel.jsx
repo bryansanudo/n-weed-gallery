@@ -110,7 +110,7 @@ const Dyel = () => {
       <Home />
 
       <div className="my-10 mx-8 text-center lg:text-center lg:border-black">
-        <div className="w-full bg-gradient-to-b from-gray-800 to-black text-white mt-12">
+        <div className="w-full  text-white mt-12">
           <div className="mx-auto flex h-full w-full max-w-screen-lg flex-col justify-center p-4 ">
             <div className="grid gap-8 md:px-12 grid-cols-1 sm:grid-cols-2  lg:grid-cols-2">
               {/* {portfolios.map(
@@ -181,12 +181,6 @@ const Dyel = () => {
                 )
               )}
             </div>
-            <button
-              onClick={useScroll}
-              className="flex items-center justify-center mt-10"
-            >
-              <AiOutlineArrowUp className="text-[#ffcdc2] " size={40} />
-            </button>
           </div>
         </div>
       </div>
